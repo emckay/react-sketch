@@ -474,9 +474,7 @@ class SketchField extends Component {
             <div className={className} style={style}>
                 <canvas
                     id={uuid4()}
-                    height={height || 512}
                     ref={(c) => this._canvas = c}
-                    width={width || 512}>
                     Sorry, Canvas HTML5 element is not supported by your browser :(
                 </canvas>
             </div>
